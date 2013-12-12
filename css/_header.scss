@@ -1,0 +1,26 @@
+header {
+    @include outer-container;
+    padding-top: 12rem;
+    h1 {
+        color: #FFF;
+        line-height: 1;
+        text-shadow: 0px 2px 2px #1b6c98;
+    }
+    ul {
+        line-height: 1;
+        list-style: none;
+        position: relative;
+        li {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            font-size: 5rem;
+            color: darken( $header-bg, 20%);
+            margin-top: -1em;
+            opacity: 0;
+            &:first-child {
+                margin-top: 0;
+                opacity: 1;
+            }
+        }
+    }
+}

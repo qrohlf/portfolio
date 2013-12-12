@@ -1,0 +1,44 @@
+@import "bourbon";
+@import "settings";
+@import "neat";
+// html5 reset
+@import "html5reset-1.6.1";
+
+// SETUP
+* { box-sizing: border-box; }
+
+//COLORS
+$header-bg: #2E8EDB;
+$work-bg: lighten($header-bg, 30%);
+$text-dark: #3F474F; 
+
+html { font-size: 16px; } //1rem is 16px
+
+
+// TYPOGRAPHY
+@import "typography";
+
+// LAYOUT
+.wrapper {
+    padding: 3rem 3rem;
+    &.header {
+        background: $header-bg;
+    }
+    &.work {
+        background: $work-bg;
+    }
+}
+
+section {
+    @include outer-container;
+}
+
+// CONTENT
+@import "header";
+@import "intro";
+
+// UTILITY
+.center {
+    text-align: center;
+}
+
