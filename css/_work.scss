@@ -1,0 +1,15 @@
+#work {
+    ul {
+        list-style: none;
+        li {
+            font-size: 0;
+            display: block;
+            @include span-columns(4);
+            @include omega(3n);
+            margin-bottom: flex-gutter();
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -8,7 +8,7 @@
 * { box-sizing: border-box; }
 
 //COLORS
-$header-bg: #B53533; //original #2E8EDB;
+$header-bg: #961717; //original #2E8EDB;
 $text-dark: #3F474F; 
 
 html { font-size: 16px; } //1rem is 16px
@@ -18,23 +18,7 @@ html { font-size: 16px; } //1rem is 16px
 @import "typography";
 
 // LAYOUT
-.wrapper {
-    padding: 3rem 3rem;
-    border-bottom: 4px solid lighten($header-bg, 40%);
-    &:nth-child(even) {
-        background: lighten($header-bg, 50%);
-    }
-    &:nth-child(odd) {
-        //background: lighten($header-bg, 40%);
-    }
-    &.header {
-        background: $header-bg;
-    }
-}
-
-section {
-    @include outer-container;
-}
+@import "layout";
 
 // CONTENT
 @import "header";

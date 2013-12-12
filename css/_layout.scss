@@ -1,0 +1,17 @@
+.wrapper {
+    padding: 3rem 3rem;
+    border-bottom: 4px solid lighten($header-bg, 50%);
+    &:nth-child(odd) {
+        background: lighten($header-bg, 60%);
+    }
+    &:nth-child(even) {
+        //background: lighten($header-bg, 40%);
+    }
+    &.header {
+        background: $header-bg;
+    }
+}
+
+section {
+    @include outer-container;
+}

@@ -64,9 +64,9 @@ h3 { font-size: 1.5rem; }
 
 a, a:hover, a:visited { color: inherit; }
 
-.wrapper { padding: 3rem 3rem; border-bottom: 4px solid #efc6c5; }
-.wrapper:nth-child(even) { background: #faeded; }
-.wrapper.header { background: #b53533; }
+.wrapper { padding: 3rem 3rem; border-bottom: 4px solid #f4b8b8; }
+.wrapper:nth-child(odd) { background: #fbe4e4; }
+.wrapper.header { background: #961717; }
 
 section { *zoom: 1; max-width: 1000px; margin-left: auto; margin-right: auto; }
 section:before, section:after { content: " "; display: table; }
@@ -77,7 +77,7 @@ header:before, header:after { content: " "; display: table; }
 header:after { clear: both; }
 header h1 { color: #FFF; line-height: 1; text-shadow: 0px 2px 2px #1b6c98; }
 header ul { line-height: 1; list-style: none; position: relative; }
-header ul li { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 5rem; color: #651e1d; margin-top: -1em; opacity: 0; }
+header ul li { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 5rem; color: #3e0909; margin-top: -1em; opacity: 0; }
 header ul li:first-child { margin-top: 0; opacity: 1; }
 
 #about { text-align: center; }
