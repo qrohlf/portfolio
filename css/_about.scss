@@ -4,13 +4,27 @@
         list-style: none;
         li {
             display: block;
+            margin-bottom: 2rem;
             @include span-columns(4);
+            @media screen and (max-width: 850px) {
+              @include span-columns(12);
+            }
             text-align: center;
             [class^="icon-"], [class*=" icon-"] {
                 font-size: 7rem;
                 display: block;
                 text-align: center;
                 margin-bottom: 1rem;
+                @media screen and (max-width: 850px) {
+                  @include span-columns(2);
+                  font-size: 3rem;
+                }
+            }
+            p {
+              @media screen and (max-width: 850px) {
+                @include span-columns(10);
+                text-align: left;
+              }
             }
         }
     }
