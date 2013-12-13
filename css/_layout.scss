@@ -1,11 +1,12 @@
 .wrapper {
     padding: 3rem 3rem;
-    border-bottom: 4px solid lighten($header-bg, 50%);
-    &:nth-child(odd) {
-        background: lighten($header-bg, 60%);
-    }
+    border-bottom: 4px solid lighten($header-bg, 20%);
     &:nth-child(even) {
+        background: lighten($header-bg, 30%);
+    }
+    &:nth-child(odd) {
         //background: lighten($header-bg, 40%);
+        background: #fefefe;
     }
 }
 
