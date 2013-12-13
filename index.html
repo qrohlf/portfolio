@@ -27,10 +27,6 @@
         </header>
         <div class="bg" data-0="background-position: 0px 0px;" data-top-bottom="background-position: 0px 200px;"></div>
     </div>
-    <script src="/portfolio/js/skrollr.js"></script>
-    <script type="text/javascript">
-    var s = skrollr.init();
-    </script>
     <div class="wrapper">
         <section id="intro">
             <h1>Hello!</h1>
@@ -85,7 +81,14 @@
                 <a href="http://qrohlf.com/"><span class="icon-feed"></span></a>
             </div>
             <div class="copy">&copy; Quinn Rohlf.</div>
-        </section>
+        </footer>
     </div>
+    <script src="/portfolio/js/skrollr.js"></script>
+    <script type="text/javascript">
+    
+    if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+        var s = skrollr.init();
+    }
+    </script>
 </body>
 </html>
