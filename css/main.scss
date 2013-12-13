@@ -24,10 +24,14 @@ html { font-size: 16px; } //1rem is 16px
 @import "header";
 @import "about";
 @import "work";
+@import "footer";
 
 // UTILITY
 .center {
     text-align: center;
+}
+.right {
+    text-align: right;
 }
 body .sqs-wrapper a#sqs-powered {
     display: none  !important;

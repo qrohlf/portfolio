@@ -52,6 +52,12 @@ html { font-size: 16px; }
 
 .icon-cogs:before { content: "\e606"; }
 
+.icon-github:before { content: "\e600"; }
+
+.icon-twitter:before { content: "\e601"; }
+
+.icon-feed:before { content: "\e602"; }
+
 h1, h2, h3 { font-family: 'Lato', sans-serif; font-weight: 300; line-height: 2; }
 
 body { font-family: 'Vollkorn', serif; font-size: 1.25rem; line-height: 1.5; color: #3f474f; background: #FDFDFD; }
@@ -96,6 +102,17 @@ header ul li:first-child { margin-top: 0; opacity: 1; }
 #work ul li:nth-child(3n+1) { clear: left; }
 #work ul li img { width: 100%; }
 
+footer { *zoom: 1; max-width: 1000px; margin-left: auto; margin-right: auto; padding-bottem: 3rem; }
+footer:before, footer:after { content: " "; display: table; }
+footer:after { clear: both; }
+footer .social { display: block; float: left; margin-right: 2.35765%; width: 48.82117%; text-align: left; font-size: 2rem; }
+footer .social:last-child { margin-right: 0; }
+footer .social a { text-decoration: none; }
+footer .copy { display: block; float: left; margin-right: 2.35765%; width: 48.82117%; text-align: right; line-height: 3rem; }
+footer .copy:last-child { margin-right: 0; }
+
 .center { text-align: center; }
+
+.right { text-align: right; }
 
 body .sqs-wrapper a#sqs-powered { display: none  !important; }

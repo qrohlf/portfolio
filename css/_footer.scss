@@ -1,0 +1,17 @@
+footer {
+    @include outer-container;
+    padding-bottem: 3rem;
+    .social {
+        @include span-columns(6);
+        text-align: left;
+        font-size: 2rem;
+        a {
+            text-decoration: none;
+        }
+    }
+    .copy {
+        @include span-columns(6);
+        text-align: right;
+        line-height: 3rem;
+    }
+}
