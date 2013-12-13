@@ -79,7 +79,7 @@ header ul { line-height: 1; list-style: none; position: relative; }
 header ul li { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 5rem; color: #8aa5c9; margin-top: -1em; opacity: 0; }
 header ul li:first-child { margin-top: 0; opacity: 1; }
 
-.header.wrapper { background: rgba(43, 64, 92, 0.8); position: relative; }
+.header.wrapper { background: rgba(43, 64, 92, 0.9); position: relative; }
 .header.wrapper .bg { box-sizing: content-box; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: url(/images/background.jpg) no-repeat; background-size: cover; padding-bottom: 200px; content: ' '; z-index: -1; }
 
 #about { text-align: center; }
