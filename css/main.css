@@ -65,8 +65,8 @@ h3 { font-size: 1.5rem; }
 a, a:hover, a:visited { color: inherit; }
 
 .wrapper { padding: 3rem 3rem; border-bottom: 4px solid #fadfb6; }
-.wrapper:nth-child(even) { background: #fdf4e6; }
-.wrapper:nth-child(odd) { background: #fefefe; }
+.wrapper:nth-child(odd) { background: #fdf4e6; }
+.wrapper:nth-child(even) { background: #fefefe; }
 
 section { *zoom: 1; max-width: 1000px; margin-left: auto; margin-right: auto; }
 section:before, section:after { content: " "; display: table; }
